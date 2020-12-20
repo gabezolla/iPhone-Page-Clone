@@ -20,7 +20,19 @@ li img {
     color: #f5f5f7a8;
 }
 
+li .bag-icon {
+    margin-top: 2px;
+    height: 40px;
+}
+
+li .lupa-icon {
+    margin-top: 2px;
+    height: 20px;
+    color: #f5f5f7a8;
+}
+
 li a {
+    padding: 10px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: #f5f5f7a8;
