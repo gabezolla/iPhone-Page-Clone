@@ -17,7 +17,6 @@ header ul {
 
 li img {
     height: 20px;
-    color: #f5f5f7a8;
 }
 
 li .bag-icon {
@@ -27,8 +26,6 @@ li .bag-icon {
 
 li .lupa-icon {
     margin-top: 2px;
-    height: 20px;
-    color: #f5f5f7a8;
 }
 
 li a {
@@ -39,7 +36,7 @@ li a {
 
 .fixed-tab {
     display: flex;
-    background-color: rgb(179, 179, 250);
+    border-bottom: 1px solid hsla(0,0%,53.3%,.4);
     justify-content: space-evenly;
     align-items: center;
     height: 49px;
@@ -51,6 +48,61 @@ li a {
 }
 
 .shipping-tab {
-    height: 3000px;
+    height: 34px;
+    width: 100vw;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #333;
+    font-size: 12px;
 }
+
+.container {
+    max-width: 980px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.space {
+    width: 100vw;
+    height: 80px;
+}
+
+.container .buy-text {
+    margin-left: 8.33%;
+    height: 100%;
+}
+
+.buy-text h1 {
+    font-size: 40px;
+    flex-basis: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.grid-colors {
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 10px;  
+    margin-top: 20px;  
+}
+
+.grid-colors a {
+    border: 1px solid hsla(0,0%,53.3%,.4);
+    margin-top: 10px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 220px;
+    height: 120px;
+    text-align: center;
+}
+
+#color p {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+
