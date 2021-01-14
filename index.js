@@ -1,6 +1,5 @@
 const colorChoose = document.querySelectorAll(".colorChoose");
-
-console.log(colorChoose);
+const phoneImage = document.querySelector('#iphone-image');
 
 colorChoose.forEach((color)=> {
     color.addEventListener("click", () => {
@@ -12,7 +11,8 @@ colorChoose.forEach((color)=> {
 
         color.classList.add('selected');
         
-        console.log('Click');
+        if(color.classList.contains('white')) phoneImage.src = 'iphone11-white.png';
+        
         document.querySelector('.capacity').style.opacity = 1;
     });
 
