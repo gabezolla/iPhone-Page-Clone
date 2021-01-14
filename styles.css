@@ -176,4 +176,44 @@ li a {
     border: 1px solid rgba(100, 97, 97, 0.829);    
 }
 
+.new-info-cont {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+#shipping {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsla(0,0%,53.3%,.4);
+}
+
+.doubt-cont {
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+}
+
+.doubt-cont p {
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.doubt-cont a {
+    text-decoration: none;
+    color: #1b7bc9;
+}
+
+.doubt-cont a:hover {
+    text-decoration: underline;
+}
+
+.doubt-cont img {
+    width: 32px;
+    height: 32px;
+    padding-right: 10px;
+}
 
