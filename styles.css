@@ -47,6 +47,7 @@ li a {
 .fixed-tab {
     display: flex;
     border-bottom: 1px solid hsla(0,0%,53.3%,.4);
+    background-color: white;
     justify-content: space-evenly;
     align-items: center;
     height: 49px;
@@ -56,6 +57,7 @@ li a {
 .fixed-tab a {
     font-size: 21px;
 }
+
 
 .shipping-tab {
     height: 34px;
@@ -122,8 +124,12 @@ li a {
     text-align: center;
 }
 
-.grid-colors a:hover{
+.colorChoose:not(.selected):hover{
     border: 1px solid rgba(100, 97, 97, 0.829);    
+}
+
+.grid-colors .selected {
+    border: 1px solid #0070c9; 
 }
 
 #color p {
@@ -217,3 +223,6 @@ li a {
     padding-right: 10px;
 }
 
+.capacity {
+    opacity: 40%;
+}
