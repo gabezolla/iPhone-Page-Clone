@@ -15,7 +15,7 @@ colorChoose.forEach((color)=> {
         if(color.classList.contains('green')) phoneImage.src = 'iphone11-green.png';        
         if(color.classList.contains('yellow')) phoneImage.src = 'iphone11-yellow.png';        
         if(color.classList.contains('purple')) phoneImage.src = 'iphone11-purple.png';        
-        if(color.classList.contains('red')) phoneImage.src = 'iphone11-red.png';        
+        if(color.classList.contains('red')) phoneImage.src = 'iphone11-red.png';    
         
         document.querySelector('.capacity').style.opacity = 1;
     });

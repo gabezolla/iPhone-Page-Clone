@@ -226,3 +226,37 @@ li a {
 .capacity {
     opacity: 40%;
 }
+
+.continue-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 15px 0px 15px 0px;
+    height: 60px;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.continue-btn-container img {
+    filter: invert(25%) sepia(92%) saturate(1812%) hue-rotate(189deg) brightness(99%) contrast(101%);
+}
+
+.continue-btn {
+    margin-right: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: linear-gradient(#42a1ec,#0070c9);
+    border: 1px solid #07c;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    padding: 4px 15px;
+    letter-spacing: .042em;
+    width: 320px;
+    height: 35px;
+}
+
+.doubt-cont img, .new-info-cont img {
+    filter: invert(29%) sepia(16%) saturate(0%) hue-rotate(205deg) brightness(99%) contrast(92%);
+}
