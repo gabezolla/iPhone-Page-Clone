@@ -269,3 +269,19 @@ li a {
     width: 100%;
     background-color: #f2f2f2;
 }
+
+.price-info h1 {
+    padding-top: 20px;
+}
+
+.price-info div {
+    padding: 20px 0px;
+    width: 80%;
+    margin: 0 auto;
+    height: 2px;
+    border-bottom: 1px solid hsla(0,0%,53.3%,.4);
+}
+
+.price-info h1, .price-info p {
+    padding-left: 20px;
+}

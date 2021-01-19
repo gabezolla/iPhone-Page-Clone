@@ -40,13 +40,13 @@ function createPriceInfo() {
     }
 
     if(capacityChoose.id = '64gb') {
-
         const price = createElement('h1', 'R$ 5.699,00');
         const installment = createElement('p', 'Em até 12x de R$ 474,92');
         const fullPayment = createElement('p', 'R$ 5.129,10 à vista (10% de desconto)');
         continueContainer.appendChild(price);
         continueContainer.appendChild(installment);
         continueContainer.appendChild(fullPayment);
+        continueContainer.appendChild(createElement('div', " "));
     }
 }
 
