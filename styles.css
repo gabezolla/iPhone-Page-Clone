@@ -124,11 +124,19 @@ li a {
     text-align: center;
 }
 
-.colorChoose:not(.selected):hover{
+.colorChoose, .memoryChoose {
+    cursor: pointer;
+}
+
+.colorChoose:not(.selected):hover, .memoryChoose:not(.selected):hover{
     border: 1px solid rgba(100, 97, 97, 0.829);    
 }
 
 .grid-colors .selected {
+    border: 1px solid #0070c9; 
+}
+
+.memory-container .selected {
     border: 1px solid #0070c9; 
 }
 
@@ -157,9 +165,10 @@ li a {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 20px;
 }
 
-.memory-choose h1, .memory-choose h3 {
+.memoryChoose h1, .memoryChoose h3 {
     display: inline;
 }
 
@@ -169,17 +178,13 @@ li a {
     border-top: 1px solid hsla(0,0%,53.3%,.4);
 }
 
-.memory-choose {
+.memoryChoose {
     padding-top: 20px;
     text-align: center;
     height: 100px;
     width: 200px;
     border: 1px solid hsla(0,0%,53.3%,.4);
     border-radius: 4px;
-}
-
-.memory-choose:hover {
-    border: 1px solid rgba(100, 97, 97, 0.829);    
 }
 
 .new-info-cont {
@@ -231,7 +236,6 @@ li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
     padding: 15px 0px 15px 0px;
     height: 60px;
     background-color: #f2f2f2;
@@ -259,4 +263,9 @@ li a {
 
 .doubt-cont img, .new-info-cont img {
     filter: invert(29%) sepia(16%) saturate(0%) hue-rotate(205deg) brightness(99%) contrast(92%);
+}
+
+.price-info {
+    width: 100%;
+    background-color: #f2f2f2;
 }
